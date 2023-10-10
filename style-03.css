@@ -1,0 +1,207 @@
+/*
+ * CSS File for the solution
+ * Tutorial 02
+ * Step 03
+ * Instructions are in the comments below
+ */
+
+
+/* CSS Colour codes you can use for this exercise */
+/*
+--red-pantone: #e63946ff;
+--honeydew: #f1faeeff;
+--non-photo-blue: #a8dadcff;
+--cerulean: #457b9dff;
+--berkeley-blue: #1d3557ff;
+*/
+
+/* Styles for the HTML Body element */
+
+body {
+  /* Add a background colour of #1d3557ff */
+}
+
+
+/* Then move onto the header styles */
+
+header {
+  /* Set the text colour, margins and padding */
+}
+
+header .site-title {
+  /* Add some cool text styles to the site title */
+  /* Experiment with the font-size, font-weight, text-transform, letter-spacing */
+}
+
+header nav {
+  /* Experiment with margin until you find spacing
+   * that you like
+  */
+}
+
+header nav ul {
+  /* Remove the list styles */
+  /* Experiment with list-style property
+   * to see what it does and how to remove
+   * the bullet points
+   */
+  /* You may also have tweak the margin and padding */
+}
+
+header a {
+  /* Set the text colour and remove the underline */
+  /* Make the links white (or any cool colour */
+}
+
+header a:hover {
+  /* Add an underline to the links when you hover over them */
+}
+
+/* GENERAL SECTION STYLES */
+
+/* Now let's setup the generic main > section styles */
+/* These are styles that are applied just to the section elements
+ * that are direct children of the main element
+ *
+ * <main>
+ *   <section>...</section>
+ *   <section>...</section>
+ *   <section>...</section>
+ * </main>
+ */
+
+main > section {
+  /* Set the margins, padding and background colour */
+  /* Set the border radius to give it rounded corners */
+}
+
+/* This fancy code removes the bottom margin from the last section */
+main > section:last-child {
+  margin-bottom: 0rem;
+}
+
+/* HERO SECTION STYLES */
+
+/* Now let's setup the Hero section in main styles */
+main section.hero {
+  /* Start by setting the padding */
+  /* Set the background colour */
+  /* Set the border radius to give it rounded corners */
+}
+
+main section.hero h1 {
+  /* Set the font size, margins and text colour */
+  /* Experiment with letter-spacing to see what it does */
+  /* Google how to align text in the center */
+}
+
+main section.hero .secondary-heading {
+  /* Set the font size, margins and text colour */
+  /* Experiment with letter-spacing to see what it does */
+  /* Google how to align text in the center */
+}
+
+main section.hero img {
+  /* You don't need to modify anything here */
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 100%;
+  height: 40rem;
+  object-fit: cover;
+  object-position: center center;
+}
+
+
+/* MENU SECTION STYLES */
+
+/* Next up is the second section, which is our menu styles */
+
+main section.menu {
+  /* Set the padding, background colour and border radius */
+}
+
+main section.menu ul {
+  /* Remove the list styles */
+  /* Experiment with list-style property
+   * to see what it does and how to remove
+   * the bullet points
+   */
+  /* You may also have tweak the margin and padding */
+}
+
+main section.menu ul li {
+  /* Set the padding, margin-top and border radius */
+  /* Set the background colour */
+}
+
+/* Use psuedo classes nth-child(even)
+ * to give ever second list item in main
+ * a different background colour and text color
+ * hint: li:nth-child
+ *
+ * background-color: #a8dadcff;
+ */
+
+
+
+/* TESTIMONIAL SECTION STYLES */
+
+/* Almost done! The last section is our testimonial styles */
+
+main section.testimonials {
+  /* Set the padding and background colour #f1faeeff */
+  /* Set the border radius */
+}
+
+/*
+  Create a css selector that targets the h2 element
+  inside the testimonials section
+  and add the following styles to it:
+
+  - Center the text
+  - Experiment with font-size, font-weight, and color to
+    design a sweet heading h2
+
+*/
+
+main section.testimonials img {
+  width: 100%;
+  max-width: 100%;
+  /* Put a border radius on just the top of the image */
+}
+
+/*
+  Create a css selector that targets the blockquote element
+  inside the testimonials section
+  and add the following styles to it:
+
+  - Let's make our customer quote look cool
+  - Center the text
+  - Set the font-weight
+  - Set the font size
+  - Set the padding
+  - Add a background colour #457b9dff
+  - Set the text colour
+  - Put a border radius on just the bottom of the blockquote
+
+*/
+
+/* AND THAT'S IT! YOU ARE DONE. CONGRATULATIONS. POST YOUR LINK! */
+
+
+/*
+ * DONT MODIFY THE CODE
+ * BELOW THIS LINE
+ */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #242121;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+main {
+  margin: 5rem 0rem;
+  padding: 1rem;
+}

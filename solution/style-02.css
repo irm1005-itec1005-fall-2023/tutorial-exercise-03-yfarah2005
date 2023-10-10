@@ -1,0 +1,80 @@
+/*
+ * CSS File for the solution
+ * Tutorial 02
+ * Step 02
+ */
+
+main .blue-box {
+  box-sizing: content-box;
+  width: 600px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  /*
+    margin can also be written like this:
+    margin: [ALL VALUES] (if there is one entry)
+    margin: [TOP AND BOTTOM] [LEFT AND RIGHT] (if there are two values)
+    margin [TOP] [LEFT] [BOTTOM] [RIGHT]
+
+    margin: 3rem;
+  */
+  padding: 5rem;
+  background-color: #a8dadcff;
+  color: #1d3557ff;
+  border-radius: 2rem;
+  border: 1rem solid #e63946ff;
+}
+
+.blue-box-box-sizing {
+  box-sizing: border-box;
+  width: 700px;
+  margin: 100px 0 50px 200px;
+  padding: 50px;
+  background-color: #a8dadcff;
+  color: #1d3557ff;
+  border-radius: 3rem;
+  border: 1rem solid #e63946ff;
+}
+
+/*
+ * DONT MODIFY THE CODE
+ * BELOW THIS LINE
+ */
+
+/* Styles for the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1d3557ff;
+  color: #242121;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+main {
+  padding: 2rem;
+}
+
+main section .container {
+  margin-top: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+/* Styles for the headings */
+main h1 {
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+  color: #f5f5f5;
+}
+
+main h2 {
+  font-size: 2.5rem;
+  color: #f5f5f5;
+}
+
+/* Styles for p eleemnts */
+main p {
+  margin: 1rem 0;
+}

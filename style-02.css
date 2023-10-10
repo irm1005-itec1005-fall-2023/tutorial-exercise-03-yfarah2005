@@ -1,0 +1,96 @@
+/*
+ * CSS File for the solution
+ * Tutorial 02
+ * Step 01
+ * Instructions are in the comments below
+ */
+
+/* Styles for the HTML Body element */
+body {
+  /* 1. Add a background colour of #1d3557ff */
+}
+
+/*
+
+Create a class called blue-box and add the following styles to it
+
+  box-sizing: content-box;
+
+  2. Add a width of 600px
+  3. Add a top margin of 2rem
+  4. Add a bottom margin of 2rem
+  5. Add a left margin of 2rem
+  6. Add a right margin of 2rem
+  7. Add a padding of 5rem
+  8. Add a background colour of #a8dadcff
+  9. Add a text colour of #1d3557ff
+  10. Add a border radius of 2rem
+  11. Add a border of 1rem solid #e63946ff
+
+*/
+
+
+
+/*
+
+Create a class called blue-box-box-sizing and add the following styles to it
+
+  box-sizing: border-box;
+
+  12. Add a width of 700px
+  13. Add  margin
+            top 100px
+            right 0
+            bottom 50px
+            left 200px
+  14. Add a padding of 50px all around
+  15. Add a background colour of #a8dadcff
+  16. Add a text colour of #1d3557ff
+  17. Add a border radius of 2rem
+  18. Add a border of 1rem solid #e63946ff
+
+*/
+
+
+
+
+/*
+ * DONT MODIFY THE CODE
+ * BELOW THIS LINE
+ */
+
+/* Styles for the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #242121;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+main {
+  padding: 2rem;
+}
+
+main section .container {
+  margin-top: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+/* Styles for the headings */
+main h1 {
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+  color: #f5f5f5;
+}
+
+main h2 {
+  font-size: 2.5rem;
+  color: #f5f5f5;
+}
+
+/* Styles for p eleemnts */
+main p {
+  margin: 1rem 0;
+}
